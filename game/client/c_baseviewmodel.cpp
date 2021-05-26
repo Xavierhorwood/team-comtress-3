@@ -371,7 +371,7 @@ int C_BaseViewModel::DrawOverriddenViewmodel( int flags )
 	return BaseClass::DrawModel( flags );
 }
 
-ConVar tf_viewmodel_alpha("tf_viewmodel_alpha", "255", FCVAR_ARCHIVE, "Controls translucency of viewmodel [1-255].", true, 1.0f, true, 255.0f);
+ConVar viewmodel_alpha("tf_viewmodel_alpha", "255", FCVAR_ARCHIVE, "Controls translucency of viewmodel [1-255].", true, 1.0f, true, 255.0f);
 
 //-----------------------------------------------------------------------------
 // Purpose: 
